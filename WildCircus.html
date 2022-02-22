@@ -1,0 +1,158 @@
+<!--
+In order to validate your HTML code, click on the arrow at the top right of this window. If you have some problems with validation, you can have a look here  : https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/
+-->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+    <link rel="stylesheet" href="Css/02.css">
+</head>
+
+<body>
+    <header>
+      <h1 class="wild-circus">Wild Circus</h1>
+      <nav>
+        <ul class="navigation">
+            <!-- TODO: every menu link drive us to the specific section -->
+            <li class="navigation-item"><a href="#prformances">Performances</a></li>
+            <li class="navigation-item"><a href="#about-us">About Us</a></li>
+            <li class="navigation-item"><a href="#prices">Prices</a></li>
+            <li class="navigation-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2 id="performances" class="in-middle">Performances</h2>
+      <!-- TODO: With your CSS, put the three performances here  ("lough", "dream, "marvel at") on the same line, without the generated dot. Becareful, only use the CSS in order to align everything, you must not remove the <li> tags.-->
+      <ul class="navigation">
+        <!-- performance 1 -->
+        <li class=" list">
+            <h3 class="list-title">Laugh</h3>
+            <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+         </li>
+        <!-- performance 2 -->
+         <li class=" list">
+            <h3 class="list-title">Dream</h3>
+            <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+         </li>
+         <!-- performance 3 -->
+         <li class=" list">
+            <h3 class="list-title">Marvel at</h3>
+            <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+         </li>
+      </ul>
+    </section>
+
+    <hr/>
+
+    <section>
+      <h2 id="about-us" class="in-middle">About Us</h2>
+      <!-- TODO: This section hasn't been realized yet, . Cette section n'a pas encore été réalisée, you can show us here all of your creativity -->
+<div class= "about-us">
+<div class= "about-us-text">
+        <h3 id= "shadow">It is not wise to violate rules; until you know how to observe them.</h3>
+              <p><strong id= "bold-text">Fail easily</strong></p>
+              <p>Our strategy toward success id to let our participants craft their design,They have failed many times to achieve the final success.</p>
+            <p>Through this way they are not alone; there are Pros who help beginners in<i id="shadow-text"> our community</i>.</p>
+          <p>In addition to <i id="shadow-text">creating</i> and <i id="shadow-text">learning</i>, there are lots of <i id="shadow-text">job opportunities</i> and <i id="shadow-text">challenges</i> from well-known companies or start-ups, so do not hesitate to explore more about us!</p>
+      </div>
+
+      <div class= "about-us-images">
+        <div class="container">
+          <img src="img/about/b&w/01.jpg" class= "about-us-image">
+        <p class="overlay">Josh Crain</p>
+        </div>
+
+        <div class="container">
+          <img src="img/about/b&w/04.jpg" class= "about-us-image">
+        <p class="overlay">Just Average</p>
+        </div>
+
+        <div class="container">
+          <img src="img/about/b&w/05.jpg" class= "about-us-image">
+        <p class="overlay">Gemma Stiles</p>
+        </div>
+
+        <div class="container">
+          <img src="img/about/b&w/06.jpg" class= "about-us-image">
+        <p class="overlay">Tripti</p>
+        </div>
+
+    </div>
+
+    </section>
+
+    <hr/>
+
+    <section id="graystyle">
+      <h2 id="prices" class="in-middle">Prices</h2>
+      <!-- TODO:  Create a table with all the prices (hint :  increase the size of the window in order to see all of the table.
+
+                                | Adults  | Children under 12       | Groups (more than 10)          | Schools
+        Weels (without wed.)    |         |                         |                                |
+        weekend et wednesday    |         |                         |                                |
+      -->
+  <table>
+  <tr>
+    <th></th>
+    <th>Adults</th>
+    <th>Children under 12</th>
+    <th>Group (more than 10)</th>
+    <th>Schools</th>
+  </tr>
+  <tr>
+    <td>Weeks (without wed.)</td>
+    <td>7500$</td>
+    <td>10000$</td>
+    <td>5000$</td>
+    <td>6000$</td>
+
+  </tr>
+  <tr>
+    <td>weekend et wednesday</td>
+    <td>5000$</td>
+    <td>8000$</td>
+    <td>3000$</td>
+    <td>4000$</td>
+  </tr>
+</table>
+  </section>
+
+    <hr/>
+<div>
+
+      <h2 id="contact" class="in-middle">Contact Us</h2>
+      <!-- TODO: Create a contact form with the inputs for the email and message, add the send button at the end. Don't forget to add the labels on the inputs.
+            This form doesn't need to be functional, just create the layout.
+      -->
+
+
+<ul>
+    <li class= "name" id="margin" >  <label > Your Name (required)
+     </label></li>
+
+<li class="email"><label> Your Email (required)
+     </label></li>
+
+<li class="subject"><label> Subject
+     </label></li>
+
+<li class="massage"><label> Your Message
+     </label></li>
+
+<li class="send">Send</li>
+</ul>
+</div>
+
+
+    <footer>
+      <!-- TODO: Add your last name and first name.
+        Place the link pointing on the Wild Code School website (https://wildcodeschool.com).
+        You can also add the link to your own website, blog or Github profile.
+       -->
+      <p>Wild Circus by Mirzabagherian Asieh - Codecademy:  <a href="https://wildcodeschool.com" target="_blank">https://wildcodeschool.com</a> - SoloLearn: <a href="http://asiemrz.me" target="_blank">http://asiemrz.me</a> - Wild Code School - 2.10.2019</p>
+    </footer>
+</body>
+</html>
